@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "braveTest": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/Actionitem01/brave-search.cy.js'",
+    "braveTest": "npx cypress run --browser chrome --spec 'cypress/e2e/Actionitem01/brave-search.cy.js'",
     "braveLoopTest": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/Day2_12162025/brave-search-loop.cy.js'",
     "actionItem": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/Actionitem01/actionItem.cy.js'",
     "citiBank": "npx cypress run --headed --browser chrome --spec 'cypress/e2e/Actionitem01/citiBank.cy.js'",
